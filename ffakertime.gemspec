@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ffakeron/version'
+require 'ffakertime/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "ffakeron"
-  gem.version       = Fakeron::VERSION
+  gem.name          = "ffakertime"
+  gem.version       = Fakertime::VERSION
   gem.authors       = ["Dirk Kelly"]
   gem.email         = ["git+dk@dirkkelly.com"]
-  gem.description   = %q{Ron Swanson addition to Faker library}
-  gem.summary       = %q{Generates dummy data based off Ron Swanson quotes}
-  gem.homepage      = "http://swansonipsum.com"
+  gem.description   = %q{Adventure Time addition to Ffaker}
+  gem.summary       = %q{Generates dummy data based off Adventure Time stuff}
+  gem.homepage      = "http://ipsumtime.com"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
