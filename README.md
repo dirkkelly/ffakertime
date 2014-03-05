@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/dirkkelly/ffakertime.png?label=ready&title=Ready)](https://waffle.io/dirkkelly/ffakertime)
 # Fakeron
 
 Adds the module Faker::IpsumTime, Faker::QuoteTime giving you endless hours of fun with Adventure Time idioms.
