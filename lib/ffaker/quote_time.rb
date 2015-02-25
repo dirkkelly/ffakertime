@@ -4,7 +4,7 @@ module Faker
     extend self
 
     def sentence
-      ADVENTURE_QUOTES.rand
+      ADVENTURE_QUOTES.sample
     end
 
     def sentences(num = 3)
