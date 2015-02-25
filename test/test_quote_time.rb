@@ -1,6 +1,6 @@
 require 'helper'
 
-class TestQuoteTime < Test::Unit::TestCase
+class TestQuoteTime < Minitest::Test
   def test_sentence
     assert_match /1\+|[a-z]+\./i, Faker::QuoteTime.sentence
   end

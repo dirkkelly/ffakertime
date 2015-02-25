@@ -1,6 +1,6 @@
 require 'helper'
 
-class TestIpsumTime < Test::Unit::TestCase
+class TestIpsumTime < Minitest::Test
   def test_paragraph
     assert_match /1\+|[ a-z]+/i, Faker::IpsumTime.paragraph
   end
