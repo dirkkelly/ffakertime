@@ -68,3 +68,10 @@ Punctuation on the quotes, I just need to rejigger the tests a little, but this 
 7. Commit your changes (`git commit -am 'Add some feature'`)
 8. Push to the branch (`git push origin my-new-feature`)
 9. Create new Pull Request
+
+## Publishing
+
+```
+gem build ffakertime.gemspec
+gem publish ffakertime-X.X.X.gem
+```
