@@ -73,5 +73,5 @@ Punctuation on the quotes, I just need to rejigger the tests a little, but this 
 
 ```
 gem build ffakertime.gemspec
-gem publish ffakertime-X.X.X.gem
+gem push ffakertime-X.X.X.gem
 ```
